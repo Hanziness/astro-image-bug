@@ -1,0 +1,21 @@
+{
+  "name": "astro-image-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "benchmark": "node ./generate.js",
+    "dev": "astro dev",
+    "build": "astro build"
+  },
+  "keywords": [],
+  "author": "Imre Gera",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "astro": "4.15.9",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "astro-favicons": "^2.0.2"
+  }
+}
